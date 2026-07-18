@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Packing List Weight Tracker</title>
+<meta name="description" content="Support and FAQ for Packing List Weight Tracker.">
+<style>
+  :root {
+    --brand: #D9603B;
+    --brand-dark: #B54A2B;
+    --ink: #2B2320;
+    --ink-soft: #6B5E57;
+    --bg: #FBF7F3;
+    --card: #FFFFFF;
+    --line: #EADFD7;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 48px; }
+  .app-name {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--brand);
+    margin-bottom: 12px;
+  }
+  h1 { font-size: 32px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; }
+  .tagline { color: var(--ink-soft); font-size: 17px; }
+
+  .contact {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 48px;
+  }
+  .contact h2 { font-size: 18px; margin-bottom: 6px; }
+  .contact p { color: var(--ink-soft); font-size: 15px; margin-bottom: 16px; }
+  .btn {
+    display: inline-block;
+    background: var(--brand);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px 22px;
+    border-radius: 10px;
+  }
+  .btn:hover { background: var(--brand-dark); }
+
+  section.faq h2 {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 16px;
+  }
+  details {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px 20px;
+    list-style: none;
+    position: relative;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after {
+    content: "+";
+    position: absolute;
+    right: 20px;
+    color: var(--brand);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+    top: 16px;
+  }
+  details[open] summary::after { content: "–"; }
+  details p { padding: 0 20px 16px; color: var(--ink-soft); font-size: 15px; }
+  details p + p { padding-top: 0; }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-size: 14px;
+    color: var(--ink-soft);
+  }
+  footer a { color: var(--brand); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    details p { animation: none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="app-name">Packing List Weight Tracker</div>
+    <h1>Support</h1>
+    <p class="tagline">Pack smart. Know the weight.</p>
+  </header>
+
+  <div class="contact">
+    <h2>Get in touch</h2>
+    <p>Questions, bug reports, or feature ideas? Email us and we'll get back to you as soon as we can, usually within a couple of days.</p>
+    <a class="btn" href="mailto:YOUR-EMAIL@example.com?subject=Packing%20List%20Weight%20Tracker%20Support">Email support</a>
+  </div>
+
+  <section class="faq">
+    <h2>Frequently asked questions</h2>
+
+    <details>
+      <summary>How do I restore my purchase?</summary>
+      <p>If you've already unlocked unlimited lists and it isn't showing on your device, open the app, go to the unlock screen, and tap <strong>Restore Purchases</strong>. Make sure you're signed in with the same Apple Account you used for the original purchase.</p>
+    </details>
+
+    <details>
+      <summary>Is this a subscription?</summary>
+      <p>No. Unlimited lists are unlocked with a single one-time purchase. There is no subscription and there are no recurring charges, ever.</p>
+    </details>
+
+    <details>
+      <summary>Are the template item weights accurate?</summary>
+      <p>Weights in the ready-made templates are typical estimates to get you started. Your own gear may differ, so adjust each item's weight to match what you actually pack, especially if you're close to an airline limit.</p>
+    </details>
+
+    <details>
+      <summary>Where is my data stored?</summary>
+      <p>Your packing lists are stored on your device. The app has no ads and no third-party analytics or tracking.</p>
+    </details>
+
+    <details>
+      <summary>I found a bug. What should I include in my report?</summary>
+      <p>Email us with your device model, iOS version, and a short description of what happened and what you expected. A screenshot helps a lot.</p>
+    </details>
+  </section>
+
+  <footer>
+    <p>Packing List Weight Tracker · <a href="YOUR-PRIVACY-POLICY-URL">Privacy Policy</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
